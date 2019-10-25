@@ -10,7 +10,7 @@ const parkToDom = {
         return `
         <article class="${parkVisited}">
             <h3 class="parkName">${parkInfo.name}</h3>
-            <div class="parkState">${parkInfo.state}</div>
+            <p class="parkState">${parkInfo.state}</p>
         </article>    
         `
     }
