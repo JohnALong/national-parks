@@ -1,1 +1,3 @@
-console.log("wow - you did it");
+API.parksData().then(parsedParks => {
+    allParks.parkBreakDown(parsedParks);
+})
